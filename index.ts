@@ -1,4 +1,5 @@
 const http=require('http');
+import 'reflect-metadata';
 import app from './src/app';
 const server=http.createServer(app);
 
