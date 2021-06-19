@@ -13,8 +13,11 @@
   "dependencies": {
     "@types/mocha": "^8.2.2",
     "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "env": "0.0.2",
     "express": "^4.17.1",
     "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
     "pg": "^8.6.0",
     "reflect-metadata": "^0.1.13",
     "ts-mocha": "^8.0.0",

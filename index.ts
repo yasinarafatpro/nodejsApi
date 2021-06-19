@@ -1,9 +1,12 @@
+require('dotenv').config();
 const http=require('http');
 import 'reflect-metadata';
 import {createConnection} from 'typeorm';
 import app from './src/app';
 import User from './src/entityes/User';
 const server=http.createServer(app);
+
+console.log(process.env);
 (
     async function(){
         await createConnection({
